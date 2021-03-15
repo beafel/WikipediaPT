@@ -6,7 +6,7 @@ import cucumber.api.java.pt.Quando;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import static org.junit.Assert.assertTrue;
-
+//OI
 public class Post extends Base {
     private Base base;
 
