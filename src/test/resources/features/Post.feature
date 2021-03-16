@@ -1,7 +1,13 @@
-#language: pt
-#encoding: utf8
-  Funcionalidade: Consulta
-    Cenario: Consultar Ovo de Pascoa
-      Dado que acesso a Wikipedia em Portugues
-      Quando pesquiso por "Ovo de Páscoa"
-      Entao exibe a expressao "Ovo de Páscoa" no titulo da aba
+
+#  Funcionalidade: Consulta
+#    Cenario: Consultar Ovo de Pascoa
+#      Dado que acesso a Wikipedia em Portugues
+#      Quando pesquiso por "Ovo de Páscoa"
+#      Entao exibe a expressao "Ovo de Páscoa" no titulo da aba
+
+
+  Feature: Consulta
+  Scenario: Consultar Ovo de Pascoa
+    Given que acesso a Wikipedia em Portugues
+    When pesquiso por "Ovo de Páscoa"
+    Then exibe a expressao "Ovo de Páscoa" no titulo da aba
