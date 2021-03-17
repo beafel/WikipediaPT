@@ -29,7 +29,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 1194721700,
+  "duration": 1183771600,
   "status": "passed"
 });
 formatter.scenario({
@@ -59,7 +59,7 @@ formatter.match({
   "location": "Post.queAcessoAWikipediaEmPortugues()"
 });
 formatter.result({
-  "duration": 2107982000,
+  "duration": 2196739300,
   "status": "passed"
 });
 formatter.match({
@@ -72,7 +72,7 @@ formatter.match({
   "location": "Post.pesquisoPor(String)"
 });
 formatter.result({
-  "duration": 1551486200,
+  "duration": 1249345200,
   "status": "passed"
 });
 formatter.match({
@@ -85,11 +85,11 @@ formatter.match({
   "location": "Post.exibeAExpressaoNoTituloDaAba(String)"
 });
 formatter.result({
-  "duration": 26231100,
+  "duration": 8372600,
   "status": "passed"
 });
 formatter.after({
-  "duration": 707774700,
+  "duration": 668401100,
   "status": "passed"
 });
 });

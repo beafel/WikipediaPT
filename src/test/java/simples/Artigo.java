@@ -27,13 +27,13 @@ public class Artigo {
     }
 
     @Test               // Durante o Teste
-    public void consultarArtigo(){
+    public void consultarArtigo() throws InterruptedException {
         // Abrir o site
         driver.get(url);
 
         // Pesquisar por "Ovo de Páscoa"
         driver.findElement(By.id("searchInput")).sendKeys("Ovos de Páscoa");
-        driver.findElement(By.id("searchButton")).click(); // Clica na lupa
+        driver.findElement(By.cssSelector("button.wvui-button")).click(); // Clica na lupa
 
         // Validar o titulo da página de retorno
         assertEquals("Ovo de Páscoa – Wikipédia, a enciclopédia livre", driver.getTitle());
